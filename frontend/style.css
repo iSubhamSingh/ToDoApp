@@ -1,0 +1,29 @@
+body{
+    background-color: #000000;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+   
+    align-items: center;
+}
+
+.inputFields{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+
+}
+
+.btn{
+    padding: 7px;
+    border-radius: 8px;
+    background-color: rgb(30, 221, 30);
+}
+
+/* .todoItems{
+
+} */
