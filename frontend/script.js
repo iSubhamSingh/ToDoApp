@@ -21,8 +21,8 @@ loadFn();
 function submitFn() {
   let newTitle = document.getElementById("title").value;
   let newDesc = document.getElementById("desc").value;
-  if (newTitle.trim().length === 0 || newDesc.trim().length === 0) {
-    alert("Please enter valid inputs");
+  if (newTitle.trim().length === 0 || newDesc.trim().length === 0) { // Added check for empty title or description
+    alert("Title or Description can't be empty");
     return;
   }
   fetch("http://localhost:3000/todos", {
