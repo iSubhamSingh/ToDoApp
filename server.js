@@ -91,7 +91,7 @@ app.delete("/todos/:id", (req, res) => {
       for (let i = 0; i < todo.length; i++) {
         if (todo[i].id == index) {
           todo.splice(i, 1);
-          console.log("from outside",todo);
+        
           fs.writeFile(filePath, JSON.stringify(todo), (err) => {
             if (err) {
               res.sendStatus(500); 
