@@ -2,6 +2,6 @@
   { "id": 121, "title": "Gym", "description": "Hit the Gym" },
   { "id": 0, "title": "Groceries", "description": "Get the Groceries" },
   { "id": 2, "title": "walk", "description": "Go for a walk" },
-  { "id": 200, "title": "", "description": "" },
+  { "id": 200, "title": "", "description": "" }
   
 ]

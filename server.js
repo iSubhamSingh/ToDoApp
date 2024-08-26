@@ -42,7 +42,7 @@ app.get("/todos/:id", (req, res) => {
 app.post("/todos", (req, res) => {
    
   let newTodo = {
-    id : Math.floor(Math.random()*10000)+1,
+    id : Date.now(),
     title : req.body.title,
     description : req.body.description
   };
