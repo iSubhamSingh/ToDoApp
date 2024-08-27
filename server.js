@@ -32,7 +32,7 @@ app.get("/todos/:id", (req, res) => {
   fs.readFile(filePath, "utf-8", (err, data) => {
     let todo = JSON.parse(data);
     if (find(index, todo) == -1) {
-      res.status(400).send("Not found");
+      res.status(400).send("Todo Not found");
     } else {
       res.json(todo[find(index, todo)]);
     }
