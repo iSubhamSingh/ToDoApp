@@ -1,4 +1,3 @@
- 
 
 .container{
     display: flex;
@@ -10,8 +9,8 @@
 
 .inputFields{
     padding: 10px;
-    margin: 12px;
-    border-radius: 8px;
+    margin: 10px;
+    border-radius: 6px;
     
 }
 
